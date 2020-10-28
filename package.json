@@ -1,0 +1,26 @@
+{
+  "name": "web_scrappers",
+  "version": "1.0.0",
+  "description": "Some of the webscrapers I've built",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lw75251/web_scrappers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lw75251/web_scrappers/issues"
+  },
+  "homepage": "https://github.com/lw75251/web_scrappers#readme",
+  "dependencies": {
+    "csv-parser": "^2.3.3",
+    "csv-writer": "^1.6.0",
+    "d3": "^6.2.0",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^5.4.1"
+  }
+}
