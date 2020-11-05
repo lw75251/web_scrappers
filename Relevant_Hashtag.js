@@ -150,14 +150,3 @@ async function scrapeRelevantTags(tagList) {
 }
 
 scrapeRelevantTags(interests).then((data) => csvWriter.writeRecords(data));
-
-
-// fs.createReadStream('data/interests.csv').pipe(csv())
-//   .on('data', async (row) => {
-//     const interest = row["lower_case_name"].replace("#","")
-//     snapshotAndExtractHashtagWordCloud(interest)
-//   })
-//   .then(() => {
-//     console.log('CSV file successfully processed');
-//     csvWriter.writeRecords(relevant_tags)
-//   });
